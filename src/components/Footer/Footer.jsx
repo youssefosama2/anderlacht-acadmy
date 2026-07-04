@@ -50,7 +50,7 @@ export default function Footer() {
           <Col lg={3}>
             <ul className="list-unstyled footer-links p-0">
               <li className="mb-3"><a href="#about">حول</a></li>
-              <li className="mb-3"><a href="#pricing">خطة الدفع</a></li>
+              {/* <li className="mb-3"><a href="#pricing">خطة الدفع</a></li> */}
               <li className="mb-3"><a href="#player">النجوم</a></li>
               <li className="mb-3"><a href="#programs">برامجنا</a></li>
               <li className="mb-3"><a href="#joinUs">انضم لنا</a></li>

@@ -13,14 +13,10 @@ export default function Players() {
   const swiperRef = useRef(null);
 
   const players = [
-    { name: "فهد عبد العزيز", role: "لاعب وسط", img: "/assets/img/little-boy-playing-soccer-sport-kid-child-with-ball_792372-354.webp" },
-    { name: "نبيل عمار", role: "مهاجم", img: "/assets/img/young-football-player-white-uniform-posing-football-field-school-sports-club_216821-2617.webp" },
-    { name: "فارس محمود", role: "لاعب وسط", img: "/assets/img/portrait-young-boy-play-grass-football-field-stadium-match-cold-weather_709963-241.webp" },
-    { name: "خالد محمد", role: "مدافع", img: "/assets/img/football-player-playing-field_1303-24539.webp" },
-    { name: "محمد علي", role: "حارس مرمى", img: "/assets/img/football-trainer-teaching-his-pupils_23-2149708014.webp" },
-    { name: "أحمد صبحي", role: "مدافع", img: "/assets/img/pexels-photo-10347859.webp" },
-    { name: "محمود حسن", role: "مهاجم", img: "/assets/img/soccer-player-training-with-ball_141188-5657.webp" },
-    { name: "عبدالرحمن محمد", role: "لاعب وسط", img: "/assets/img/full-shot-child-football-field_23-2149270917.webp" },
+    { img: "/assets/img/player4.webp" },
+    { img: "/assets/img/player3.webp" },
+    { img: "/assets/img/player1.webp" },
+    { img: "/assets/img/player2.webp" },
   ];
 
   return (

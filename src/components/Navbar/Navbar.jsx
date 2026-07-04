@@ -12,7 +12,7 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navlinks me-auto">
             <HashLink className="nav-link" to="/#about">حول</HashLink>
-            <HashLink className="nav-link" to="/#pricing">خطة الدفع</HashLink>
+            {/* <HashLink className="nav-link" to="/#pricing">خطة الدفع</HashLink> */}
             <HashLink className="nav-link" to="/#player">النجوم</HashLink>
             <HashLink className="nav-link" to="/#programs">برامجنا</HashLink>
             <HashLink className="nav-link" to="/#joinUs">انضم لنا</HashLink>
