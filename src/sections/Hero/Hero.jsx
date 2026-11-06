@@ -321,11 +321,22 @@ export default function HeroSection() {
                 let imageUrl = null;
 
                 if (imageFile) {
-                  const filePath = `requests/${Date.now()}.jpg`;
-                  const { error: uploadError } = await supabase.storage.from("avatars").upload(filePath, imageFile);
+                  const filePath = `academies/${ACADEMY_ID}/registration-requests/${Date.now()}.jpg`;
+
+                  const { error: uploadError } = await supabase.storage
+                    .from("avatars")
+                    .upload(filePath, imageFile, {
+                      cacheControl: "3600",
+                      upsert: false,
+                      contentType: "image/jpeg",
+                    });
+
                   if (uploadError) throw uploadError;
 
-                  const { data } = supabase.storage.from("avatars").getPublicUrl(filePath);
+                  const { data } = supabase.storage
+                    .from("avatars")
+                    .getPublicUrl(filePath);
+
                   imageUrl = data.publicUrl;
                 }
 

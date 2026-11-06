@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faYoutube,
-  faInstagram,
-  faWhatsapp,
+import { faFacebookF, faYoutube, faInstagram, faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 
 import {
@@ -50,7 +46,7 @@ export default function Footer() {
           <Col lg={3}>
             <ul className="list-unstyled footer-links p-0">
               <li className="mb-3"><a href="#about">حول</a></li>
-              {/* <li className="mb-3"><a href="#pricing">خطة الدفع</a></li> */}
+              {/* <li className="mb-3"><a href="#pricing">خطة الدفع</a></li>  */}
               <li className="mb-3"><a href="#player">النجوم</a></li>
               <li className="mb-3"><a href="#programs">برامجنا</a></li>
               <li className="mb-3"><a href="#joinUs">انضم لنا</a></li>
@@ -70,7 +66,7 @@ export default function Footer() {
               <button className="btn btn-primary rounded-pill px-4 position-absolute start-0 top-50 translate-middle-y join-btn">
                 اشتراك
               </button>
-            </div>
+            </div>               
           </Col>
         </Row>
         
